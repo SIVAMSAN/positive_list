@@ -1,0 +1,24 @@
+List1=[12, -7, 5, 64, -14]
+List2=[12, 14, -95, 3]
+n1=len(List1)
+n2=len(List2)
+print(List1)
+print(List2)
+list1 = []
+list2 = []
+i=0
+while i < n1 :
+  if List1[i] < 0 :
+     i+=1
+  else :
+     list1.append(List1[i])
+     i+=1
+print(list1)
+i=0
+while i < n2 :
+  if List2[i] < 0 :
+     i+=1
+  else :
+     list2.append(List2[i])
+     i+=1
+print(list2)
